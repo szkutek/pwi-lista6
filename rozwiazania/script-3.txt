@@ -1,0 +1,160 @@
+Script started on Mon 21 Nov 2016 01:10:07 PM CET
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git cherry-pick[K[K[K[K[K[K[K[K[K[K[Kreflog
+[?1h=[33m1cb5c72[m HEAD@{0}: checkout: moving from ja to master[m
+[33m6b9d4b8[m HEAD@{1}: checkout: moving from ja to ja[m
+[33m6b9d4b8[m HEAD@{2}: pull: Merge made by the 'recursive' strategy.[m
+[33m1f90f30[m HEAD@{3}: rebase finished: returning to refs/heads/ja[m
+[33m1f90f30[m HEAD@{4}: rebase: film[m
+[33m4376c5b[m HEAD@{5}: rebase: checkout 4376c5b[m
+[33mfcfb71d[m HEAD@{6}: checkout: moving from 4376c5bab21cb04ce065b9b3672736acc0b990b3[m [33m[m to ja[m
+[33m4376c5b[m HEAD@{7}: commit: --amend[m
+[33m891894d[m HEAD@{8}: checkout: moving from ja to 891894d[m
+[33mfcfb71d[m HEAD@{9}: commit: film[m
+[33m891894d[m HEAD@{10}: checkout: moving from master to ja[m
+[33m1cb5c72[m HEAD@{11}: commit: chyba już koniec[m
+[33m5b54158[m HEAD@{12}: checkout: moving from komputer to master[m
+[33me1917b3[m HEAD@{13}: commit: komputer[m
+[33mb6fd249[m HEAD@{14}: commit: komputer[m
+[33m5b54158[m HEAD@{15}: checkout: moving from master to komputer[m
+[33m5b54158[m HEAD@{16}: commit: koniec[m
+[33md3caf0c[m HEAD@{17}: checkout: moving from ja to master[m
+[33m891894d[m HEAD@{18}: commit: czasopismo[m
+[33ma270940[m HEAD@{19}: commit: najciekawsza rzecz[m
+[33m778ffa5[m HEAD@{20}: commit: o mnie[m
+[33md3caf0c[m HEAD@{21}: checkout: moving from master to ja[m
+:[K[K [KESCESC[KOO[KBB[K[33md3caf0c[m HEAD@{22}: commit (initial): pierwszy commit[m
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git [Kk --brance[Khes
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git cherry pisk[K[Kc[K[K[K[K-pick 778ffa5 a270940 891894d fcfb71d  4376c5b
+[master fc279ed] o mnie
+ Date: Mon Nov 21 11:21:36 2016 +0100
+ 1 file changed, 1 insertion(+)
+ create mode 100644 o-mnie.txt
+[master bf0196e] najciekawsza rzecz
+ Date: Mon Nov 21 11:22:48 2016 +0100
+ 1 file changed, 1 insertion(+)
+[master 5f5838c] czasopismo
+ Date: Mon Nov 21 11:28:29 2016 +0100
+ 1 file changed, 1 insertion(+)
+[master 497429c] film
+ Date: Mon Nov 21 11:41:25 2016 +0100
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ulubiony-film
+[master d0f0127] --amend
+ Date: Mon Nov 21 12:50:14 2016 +0100
+ 1 file changed, 1 insertion(+)
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git [Kk -bb[K[K-branches
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git merg e[K[Ke komputer
+[?1049h[24;1H[?12;25h[?1h="/home/szkutek/pwi2/lista6/.git/MERGE_MSG" 7 lines, 251 characters [H[2JMerge branch 'komputer'[H
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[23B"/home/szkutek/pwi2/lista6/.git/MERGE_MSG" 7 lines, 251 characters [H[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lM[23B[K[H[4hII[4lP[H[?5h[?5lKO[4hMM[4lomm[4hit[4l[Hzadani[4he3[4l[H
+[L[22B[K[H
+[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[4ht[4lg[4hit merge ma[4lko[4hmputer[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hB[4l[L[22B[K[H
+[4hA[4l[L[22B[K[H
+[4hA[4l[L[22B[K[H
+[4hA[4l[L[22B[K[H
+[4hA[4l[L[22B[K[H
+[4hA[4l[L[22B[K[H
+[4hA[4l[L[22B[K[H
+[4hA[4l[L[4hA[4l[L[4hA[4l[?5h[?5la[K[?5h[?5l[?5h[?5l[?5h[?5l
+[K
+[K
+[K
+[K
+[?5h[?5l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l
+
+
+[A
+
+[A
+
+[A# Please enter a commit message to explain why this merge is necessary,
+
+[A# especially if it merges an updated upstream into a topic branch.
+
+[A#
+
+[A# Lines starting with '#' will be ignored, and an empty message aborts
+
+[A# the commit.[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[HM[23B[K[HM[23B[K[HM[23B[K[HM[23B[K[HM[23B[K[HMMzadanie3[H[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l
+
+
+
+
+
+
+
+
+
+
+
+[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[11B:w"/home/szkutek/pwi2/lista6/.git/MERGE_MSG" 30 lines, 277 characters [11A
+
+
+
+
+
+
+
+
+
+
+[K:x
+[?12l[?25h[?1l>[?1049lMerge made by the 'recursive' strategy.
+ o-komputerze.txt | 44 [32m++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 44 insertions(+)
+ create mode 100644 o-komputerze.txt
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git [Kk --branches
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m exit
+exit
+
+Script done on Mon 21 Nov 2016 01:34:01 PM CET

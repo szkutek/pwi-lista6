@@ -1,0 +1,212 @@
+Script started on Mon 21 Nov 2016 11:18:11 AM CET
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git init
+Initialized empty Git repository in /home/szkutek/pwi2/lista6/.git/
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m touch README.md
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m echo "Zadanie 1 z listy 6 z PWI" >>[K README.md 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add README.md 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git commit -m README.md [K[K[K[K[K[K[K[K[K[K"pierwszy commit"
+[master (root-commit) d3caf0c] pierwszy commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git push[K[K[K[K[K[K[K[K/home/szkutek/pwi2/rozwiazania[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote add origin git@github.com:szkutek/pw i-lista6.git
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git push -u origin master
+Enter passphrase for key '/home/szkutek/.ssh/id_rsa': 
+Counting objects: 3, done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 237 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:szkutek/pwi-lista6.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git checkout -b ja
+Switched to a new branch 'ja'
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m touch o-mnie.txt
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m touch o-mnie.txt[1P[1P[1P[1P[1P o-mnie.txte o-mnie.txtc o-mnie.txth o-mnie.txto o-mnie.txt[C o-mnie.txt" o-mnie.txtA o-mnie.txtg o-mnie.txtn o-mnie.txti o-mnie.txte o-mnie.txts o-mnie.txtz o-mnie.txtk o-mnie.txta o-mnie.txt[C o-mnie.txtS o-mnie.txtz o-mnie.txtk o-mnie.txtu o-mnie.txtt o-mnie.txte o-mnie.txtk o-mnie.txt" o-mnie.txt[C o-mnie.txt> o-mnie.txt> o-mnie.txt[1P o-mnie.txt
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add o-mnie.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git commit -m "o mnie"
+[ja 778ffa5] o mnie
+ 1 file changed, 1 insertion(+)
+ create mode 100644 o-mnie.txt
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git push -u origin ja
+Enter passphrase for key '/home/szkutek/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 290 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:szkutek/pwi-lista6.git
+ * [new branch]      ja -> ja
+Branch ja set up to track remote branch ja from origin.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m echo "git jest trudny" >> o-mnie.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m echo "git jest trudny" >> o-mnie.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgit push -u origin jacommit -m "o mnie"[3Padd o-mnie.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add o-mnie.txt [18@echo "git jest trudny" >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgit push -u origin jacommit -m "o mnie"[1P"[1P"[1P"[1P"[1P"[1P"n"a"j"c"i"e"k"a"w"s"z"a" "r"z"e"c"z"
+[ja a270940] najciekawsza rzecz
+ 1 file changed, 1 insertion(+)
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git commit -m "najciekawsza rzecz"[15Padd o-mnie.txt [18@echo "git jest trudny" >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgit push -u origin ja
+Enter passphrase for key '/home/szkutek/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 314 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:szkutek/pwi-lista6.git
+   778ffa5..a270940  ja -> ja
+Branch ja set up to track remote branch ja from origin.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m echo "The New York Times" >> o-mnie.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add o-mnie.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git commit -m "czasopismo"
+[ja 891894d] czasopismo
+ 1 file changed, 1 insertion(+)
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git push -u origin ja
+Enter passphrase for key '/home/szkutek/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 327 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:szkutek/pwi-lista6.git
+   a270940..891894d  ja -> ja
+Branch ja set up to track remote branch ja from origin.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git log
+[?1h=[33mcommit 891894d3b0ad9e2b0b85dbf50bf9441749d808e6[m[m
+Author: szkutek <aga.szkutek@gmail.com>[m
+Date:   Mon Nov 21 11:28:29 2016 +0100[m
+[m
+    czasopismo[m
+[m
+[33mcommit a270940afe359ce449f6e90f72b013c31b887190[m[m
+Author: szkutek <aga.szkutek@gmail.com>[m
+Date:   Mon Nov 21 11:22:48 2016 +0100[m
+[m
+    najciekawsza rzecz[m
+[m
+[33mcommit 778ffa5c0aa250c7c482d7897c551031275038a0[m[m
+Author: szkutek <aga.szkutek@gmail.com>[m
+Date:   Mon Nov 21 11:21:36 2016 +0100[m
+[m
+    o mnie[m
+[m
+[33mcommit d3caf0c3b22ba9f1bbb7dea977a51e6d94b2b3f3[m[m
+Author: szkutek <aga.szkutek@gmail.com>[m
+Date:   Mon Nov 21 11:19:28 2016 +0100[m
+[m
+    pierwszy commit[m
+:[K[K[K[?1l>]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m echo "skończone" >> README.md 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add R
+fatal: pathspec 'R' did not match any files
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add README.md 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git commit -m "koniec"
+[master 5b54158] koniec
+ 1 file changed, 1 insertion(+)
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git push -u origin master
+Enter passphrase for key '/home/szkutek/.ssh/id_rsa': 
+Counting objects: 3, done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 272 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:szkutek/pwi-lista6.git
+   d3caf0c..5b54158  master -> master
+Branch master set up to track remote branch master from origin.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git log
+[?1h=[33mcommit 5b541586c5a9bd7ac61bf2b3a4a380aa35c878bf[m[m
+Author: szkutek <aga.szkutek@gmail.com>[m
+Date:   Mon Nov 21 11:32:18 2016 +0100[m
+[m
+    koniec[m
+[m
+[33mcommit d3caf0c3b22ba9f1bbb7dea977a51e6d94b2b3f3[m[m
+Author: szkutek <aga.szkutek@gmail.com>[m
+Date:   Mon Nov 21 11:19:28 2016 +0100[m
+[m
+    pierwszy commit[m
+[K[?1l>]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git reflog
+[?1h=[33m5b54158[m HEAD@{0}: commit: koniec[m
+[33md3caf0c[m HEAD@{1}: checkout: moving from ja to master[m
+[33m891894d[m HEAD@{2}: commit: czasopismo[m
+[33ma270940[m HEAD@{3}: commit: najciekawsza rzecz[m
+[33m778ffa5[m HEAD@{4}: commit: o mnie[m
+[33md3caf0c[m HEAD@{5}: checkout: moving from master to ja[m
+[33md3caf0c[m HEAD@{6}: commit (initial): pierwszy commit[m
+[K[?1l>]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m gitk
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m gitk --branches
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git ce[Kheckout -b komputer
+Switched to a new branch 'komputer'
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m tocu[K[Kuch o-komputerze.txt
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m echo[K[K[K[Kuname -a > o-komputerze.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add -[Ko-komputerze.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git commit -m "komputer"
+git   [komputer b6fd249] komputer
+ 1 file changed, 1 insertion(+)
+ create mode 100644 o-komputerze.txt
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git push -u origin komputer
+Enter passphrase for key '/home/szkutek/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 375 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:szkutek/pwi-lista6.git
+ * [new branch]      komputer -> komputer
+Branch komputer set up to track remote branch komputer from origin.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m cat /proc/meminfo >> o-komputerze.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m cat /proc/meminfo >> o-komputerze.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit push -u origin komputer[3Pcommit -m "komputer"add o-komputerze.txt 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add o-komputerze.txt [13@cat /proc/meminfo >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit push -u origin komputer[3Pcommit -m "komputer"
+[komputer e1917b3] komputer
+ 1 file changed, 43 insertions(+)
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git commit -m "komputer"add o-komputerze.txt [13@cat /proc/meminfo >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit push -u origin komputer
+Enter passphrase for key '/home/szkutek/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 829 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:szkutek/pwi-lista6.git
+   b6fd249..e1917b3  komputer -> komputer
+Branch komputer set up to track remote branch komputer from origin.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m checkout [1@g[1@i[1@t[1@ [C[C[C[C[C[C[C[C[Cmaster
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git log
+[?1h=[33mcommit 5b541586c5a9bd7ac61bf2b3a4a380aa35c878bf[m[m
+Author: szkutek <aga.szkutek@gmail.com>[m
+Date:   Mon Nov 21 11:32:18 2016 +0100[m
+[m
+    koniec[m
+[m
+[33mcommit d3caf0c3b22ba9f1bbb7dea977a51e6d94b2b3f3[m[m
+Author: szkutek <aga.szkutek@gmail.com>[m
+Date:   Mon Nov 21 11:19:28 2016 +0100[m
+[m
+    pierwszy commit[m
+[K[?1l>]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git reflog
+[?1h=[33m5b54158[m HEAD@{0}: checkout: moving from komputer to master[m
+[33me1917b3[m HEAD@{1}: commit: komputer[m
+[33mb6fd249[m HEAD@{2}: commit: komputer[m
+[33m5b54158[m HEAD@{3}: checkout: moving from master to komputer[m
+[33m5b54158[m HEAD@{4}: commit: koniec[m
+[33md3caf0c[m HEAD@{5}: checkout: moving from ja to master[m
+[33m891894d[m HEAD@{6}: commit: czasopismo[m
+[33ma270940[m HEAD@{7}: commit: najciekawsza rzecz[m
+[33m778ffa5[m HEAD@{8}: commit: o mnie[m
+[33md3caf0c[m HEAD@{9}: checkout: moving from master to ja[m
+[33md3caf0c[m HEAD@{10}: commit (initial): pierwszy commit[m
+[K[?1l>]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m gitk --branches
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m gi[K[Kecho "dopisz coś" >> README.md 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git add README.md 
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m f[Kgit commit -m "chyba już koniec"
+[master 1cb5c72] chyba już koniec
+ 1 file changed, 1 insertion(+)
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m git push -u origin M[Kmaster
+Enter passphrase for key '/home/szkutek/.ssh/id_rsa': 
+Counting objects: 3, done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 297 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:szkutek/pwi-lista6.git
+   5b54158..1cb5c72  master -> master
+Branch master set up to track remote branch master from origin.
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m gitk --branches
+]0;szkutek@Szkutek-Laptop:/home/szkutek/pwi2/lista6[01;32m[szkutek@Szkutek-Laptop[01;37m lista6[01;32m]$[00m exit
+exit
+
+Script done on Mon 21 Nov 2016 11:39:52 AM CET
