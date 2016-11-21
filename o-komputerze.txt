@@ -1,0 +1,1 @@
+Linux Szkutek-Laptop 4.4.12-1-MANJARO #1 SMP PREEMPT Thu Jun 2 16:45:18 UTC 2016 x86_64 GNU/Linux
